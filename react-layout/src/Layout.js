@@ -3,7 +3,10 @@ import{Outlet, Link} from "react-router-dom";
 const Layout = () =>{
     return (
         <>
-            <p>This is my header</p>
+            <Header />
+
+            <Link to="/">Home</Link>
+            <Link to ="/abou">ABout</Link>
 
             <Outlet />
 
